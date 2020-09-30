@@ -31,13 +31,13 @@
 \end{frame}
 %-
 %*----------- SLIDE -------------------------------------------------------------
-\begin{frame}[t]{Questões de Pesquisa}
+\begin{frame}[c]{Questões de Pesquisa}
     \transboxout[duration=0.5]
     \begin{columns}
         \column{.05\textwidth}
-        \column{.45\textwidth}
+        \column{.40\textwidth}
             \includegraphics[width=1.1\textwidth]{blueprint-arm}
-        \column{.4\textwidth}
+        \column{.55\textwidth}
             \begin{enumerate}
                 \item De que forma as perturbações podem ser compensadas num manipulador submarino?
                 \item Qual o modelo para uma melhor eficiência de trajetórias?
@@ -92,7 +92,7 @@
         \column{.02\textwidth}
         \column{.48\textwidth}
         \begin{itemize}
-            \item Planejamento de trajetórias.
+            \item Planejamento dinâmico de trajetórias.
             \item Odometria visual.
             \item Manipuladores subaquáticos.
             \item Manipuladores autônomos.
@@ -155,41 +155,44 @@
 \begin{frame}[c]{Cronograma}
     %\transboxin[duration=1,direction=30]
     \centering
-    \begin{columns}
-        \column{.05\textwidth}
-        \column{.95\textwidth}
+    % \begin{columns}
+    %     \column{.05\textwidth}
+    %     \column{.95\textwidth}
         % Please add the following required packages to your document preamble:
 % \usepackage[table,xcdraw]{xcolor}
 % If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
 \begin{table}[]
-    \begin{tabular}{llllllllllllll|llllllllllll|llllllllllll}
-    \cline{3-38}
-     & \multicolumn{1}{l|}{} & \multicolumn{12}{c|}{2020} & \multicolumn{12}{c|}{2021} & \multicolumn{12}{c|}{2022} \\ \cline{3-38} 
-     & \multicolumn{1}{l|}{} & \multicolumn{1}{c}{J} & \multicolumn{1}{c}{F} & \multicolumn{1}{c}{M} & \multicolumn{1}{c}{A} & \multicolumn{1}{c}{M} & \multicolumn{1}{c}{J} & \multicolumn{1}{c}{J} & \multicolumn{1}{c}{A} & \multicolumn{1}{c}{S} & \multicolumn{1}{c}{O} & \multicolumn{1}{c}{N} & \multicolumn{1}{c|}{D} & \multicolumn{1}{c}{J} & \multicolumn{1}{c}{F} & \multicolumn{1}{c}{M} & \multicolumn{1}{c}{A} & \multicolumn{1}{c}{M} & \multicolumn{1}{c}{J} & \multicolumn{1}{c}{J} & \multicolumn{1}{c}{A} & \multicolumn{1}{c}{S} & \multicolumn{1}{c}{O} & \multicolumn{1}{c}{N} & \multicolumn{1}{c|}{D} & \multicolumn{1}{c}{J} & \multicolumn{1}{c}{F} & \multicolumn{1}{c}{M} & A & M & J & J & A & S & O & N & D \\ \hline
-     & \textbf{Disciplinas - cumprimento de créditos} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ \hline
-     & \textbf{Fundamentação} &  &  &  &  &  &  &  &  &  &  &  & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ \hline
-    1 & Fazer revisão bibliográfica &  &  &  &  &  &  &  &  &  &  &  & \textgreater{} & \textgreater{} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
-    2 & Elaborar estudo do estado da arte &  &  &  &  &  &  &  &  &  &  &  &  &  & \textgreater{} & \textgreater{} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
-    3 & Comparar modelos pesquisados &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \textgreater{} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
-    4 & Estudar odometria visual &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \textgreater{} & \textgreater{} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
-    5 & {\color[HTML]{3166FF} \textit{Escrever parte.1 da tese (introdução, fundamentação e metodologia)}} &  &  &  &  &  &  &  &  &  &  &  &  &  & \textgreater{} & \textgreater{} & \textgreater{} & \textgreater{} & \textgreater{} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
-    6 & {\color[HTML]{9A0000} Realizar qualificação} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \textgreater{} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ \hline
-     & \textbf{Desenvolvimento} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} &  &  &  &  &  &  &  &  &  &  &  &  \\ \hline
-    1 & Realizar simulação dos modelos e odometria &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \textgreater{} & \textgreater{} & \textgreater{} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
-    2 & Elaborar conceito do novo modelo &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \textgreater{} & \textgreater{} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
-    3 & Realizar simulação integrada &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \textgreater{} & \textgreater{} &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
-    4 & {\color[HTML]{3166FF} \textit{Escrever primeiro artigo}} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \textgreater{} & \textgreater{} & \textgreater{} &  &  &  &  &  &  &  &  &  &  &  &  \\
-    5 & {\color[HTML]{3166FF} \textit{Escrever patente}} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \textgreater{} & \textgreater{} & \textgreater{} &  &  &  &  &  &  &  &  &  &  &  &  \\ \hline
-     & \textbf{Resultados e análise} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} &  &  &  &  &  &  \\ \hline
-    1 & Realizar testes em laboratório &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \textgreater{} & \textgreater{} & \textgreater{} & \textgreater{} &  &  &  &  &  &  &  &  &  &  \\
-    2 & Analisar os dados obtidos &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \textgreater{} & \textgreater{} &  &  &  &  &  &  &  &  &  \\
-    3 & {\color[HTML]{3166FF} \textit{Escrever segundo artigo}} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \textgreater{} & \textgreater{} & \textgreater{} &  &  &  &  &  &  \\ \hline
-     & \textbf{Defesa} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} \\ \hline
-    1 & {\color[HTML]{3166FF} \textit{Escrever parte.2 da tese (Resultados e análise e conclusão)}} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \textgreater{} & \textgreater{} & \textgreater{} & \textgreater{} & \textgreater{} &  &  \\
-    2 & {\color[HTML]{9A0000} Realizar defesa perante a banca} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \textgreater{} & \textgreater{}
+    \resizebox{\linewidth}{!}{
+    \begin{tabular}{llll|llllllllllll|llllllllllll}
+    \cline{3-28}
+     & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{2020} & \multicolumn{12}{c|}{2021} & \multicolumn{12}{c|}{2022} \\ \cline{3-28} 
+     & \multicolumn{1}{l|}{} & \multicolumn{1}{c}{J - N} & \multicolumn{1}{c|}{D} & \multicolumn{1}{c}{J} & \multicolumn{1}{c}{F} & \multicolumn{1}{c}{M} & \multicolumn{1}{c}{A} & \multicolumn{1}{c}{M} & \multicolumn{1}{c}{J} & \multicolumn{1}{c}{J} & \multicolumn{1}{c}{A} & \multicolumn{1}{c}{S} & \multicolumn{1}{c}{O} & \multicolumn{1}{c}{N} & \multicolumn{1}{c|}{D} & \multicolumn{1}{c}{J} & \multicolumn{1}{c}{F} & \multicolumn{1}{c}{M} & A & M & J & J & A & S & O & N & D \\ \hline
+     & \textbf{Disciplinas - cumprimento de créditos} & \textbf{\textgreater{}\textgreater{}\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ \hline
+     & \textbf{Fundamentação} &  & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ \hline
+    1 & Fazer revisão bibliográfica &  & \textgreater{} & \textgreater{} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+    2 & Elaborar estudo do estado da arte &  &  &  & \textgreater{} & \textgreater{} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+    3 & Comparar modelos pesquisados &  &  &  &  & \textgreater{} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+    4 & Estudar odometria visual &  &  &  &  & \textgreater{} & \textgreater{} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+    5 & {\color[HTML]{3166FF} \textit{Escrever parte.1 da tese (introdução, fundamentação e metodologia)}} &  &  &  & \textgreater{} & \textgreater{} & \textgreater{} & \textgreater{} & \textgreater{} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+    6 & {\color[HTML]{9A0000} Realizar qualificação} &  &  &  &  &  &  &  & \textgreater{} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ \hline
+     & \textbf{Desenvolvimento} &  &  &  &  &  &  &  & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} &  &  &  &  &  &  &  &  &  &  &  &  \\ \hline
+    1 & Realizar simulação dos modelos e odometria &  &  &  &  &  &  &  & \textgreater{} & \textgreater{} & \textgreater{} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+    2 & Elaborar conceito do novo modelo &  &  &  &  &  &  &  &  &  & \textgreater{} & \textgreater{} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+    3 & Realizar simulação integrada &  &  &  &  &  &  &  &  &  &  & \textgreater{} & \textgreater{} &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+    4 & {\color[HTML]{3166FF} \textit{Escrever primeiro artigo}} &  &  &  &  &  &  &  &  &  &  &  & \textgreater{} & \textgreater{} & \textgreater{} &  &  &  &  &  &  &  &  &  &  &  &  \\
+    5 & {\color[HTML]{3166FF} \textit{Escrever patente}} &  &  &  &  &  &  &  &  &  &  &  & \textgreater{} & \textgreater{} & \textgreater{} &  &  &  &  &  &  &  &  &  &  &  &  \\ \hline
+     & \textbf{Resultados e análise} &  &  &  &  &  &  &  &  &  &  &  &  & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} &  &  &  &  &  &  \\ \hline
+    1 & Realizar testes em laboratório &  &  &  &  &  &  &  &  &  &  &  &  & \textgreater{} & \textgreater{} & \textgreater{} & \textgreater{} &  &  &  &  &  &  &  &  &  &  \\
+    2 & Analisar os dados obtidos &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \textgreater{} & \textgreater{} &  &  &  &  &  &  &  &  &  \\
+    3 & {\color[HTML]{3166FF} \textit{Escrever segundo artigo}} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \textgreater{} & \textgreater{} & \textgreater{} &  &  &  &  &  &  \\ \hline
+     & \textbf{Defesa} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} & \textbf{\textgreater{}} \\ \hline
+    1 & {\color[HTML]{3166FF} \textit{Escrever parte.2 da tese (Resultados e análise e conclusão)}} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \textgreater{} & \textgreater{} & \textgreater{} & \textgreater{} & \textgreater{} &  &  \\
+    2 & {\color[HTML]{9A0000} Realizar defesa perante a banca} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \textgreater{} & \textgreater{}
     \end{tabular}
-    \end{table}
-    \end{columns}
+    }
+\end{table}
+
+    % \end{columns}
 
 %*----------- notes
     \note[item]{Notes can help you to remember important information. Turn on the notes option.}
@@ -197,9 +200,63 @@
 %-
 \begin{frame}[c]{Referências}
     %\transboxin[duration=1,direction=30]
-    \centering
-    
+    %\centering
+    %\bibliographystyle{apalike}
+%     \textcite{agostini2007}
+%     \parencite{agostini2007}
+%     \footcite{agostini2007}
+%     \cite{agostini2007}\\
+% começo
+%     \bibentry{agostini2007}
+    \begin{columns}
+    \column{.01\textwidth}
+    \column{.95\textwidth}
+    \Wider{
+   
+    GUANGYI, Z. et al. Research on underwater safety inspection and operational robot motion control. In: IEEE. 2018 33rd Youth Academic Annual Conference of Chinese Association of Automation (YAC). [S.l.], 2018. p. 322–327.\\
+    \vspace*{0.2cm}
+
+    BRUNO, F. et al. Augmented reality visualization of scene depth for aiding rov pilots in underwater manipulation. Ocean Engineering, Elsevier, v. 168, p. 140–154, 2018.\\
+    \vspace*{0.2cm}
+
+    LEBORNE, F. et al. Dynamic modeling and identification of an heterogeneously actuated underwater manipulator arm. In: IEEE. 2018 IEEE International Conference on Robotics and Automation (ICRA). [S.l.], 2018. p. 1–9.\\
+    \vspace*{0.2cm}
+
+    BARBIERI, L. et al. Design, prototyping and testing of a modular small-sized underwater robotic arm controlled through a master-slave approach. Ocean Engineering, Elsevier, v. 158, p. 253–262, 2018.
+
+
+    }
+    \end{columns}
 %*----------- notes
     \note[item]{Notes can help you to remember important information. Turn on the notes option.}
+\end{frame}
+%-
+\begin{frame}[c]{Referências}
+    %\transboxin[duration=1,direction=30]
+    %\centering
+    \begin{columns}
+        \column{.01\textwidth}
+        \column{.95\textwidth}
+        \Wider{
+       
+        
+    
+        KURUMAYA, S. et al. A modular soft robotic wrist for underwater manipulation. Soft robotics, Mary Ann Liebert, Inc. 140 Huguenot Street, 3rd Floor New Rochelle, NY 10801 USA, v. 5, n. 4, p. 399–409, 2018.\\
+        \vspace*{0.2cm}
+    
+        SIVČEV, S. et al. Underwater manipulators: A review. Ocean Engineering, Elsevier, v. 163, p. 431–450, 2018. \\
+        \vspace*{0.2cm}
+    
+        SIVČEV, S. et al. Collision detection for underwater rov manipulator systems. Sensors, Multidisciplinary Digital Publishing Institute, v. 18, n. 4, p. 1117, 2018.
+        }
+        \end{columns}
+    
+    
+    
+    
+    
+
+%*----------- notes
+    %\note[item]{Notes can help you to remember important information. Turn on the notes option.}
 \end{frame}
 %-
